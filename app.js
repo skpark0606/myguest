@@ -24,6 +24,7 @@ mongoose.connect('mongodb://localhost/guest', function(err, res) {
 // # 1
 app.listen(8000);
 console.log('나 8000 포트에서 돌아간다!');
+console.log('github에서 편집한 것임');
 
 app.get('/', function(req, res){
 	res.send("안녕 세상!");
